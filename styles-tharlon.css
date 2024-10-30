@@ -1,0 +1,21 @@
+/* The url in the following @font-face rules needs to point to the respective Myanmar fonts on the server. */
+
+@font-face { font-family: 'RemoteTharLon';
+    src: url('./tharlon-regular.eot');
+    src: local('TharLon'),
+    url('./tharlon-regular.woff') format('woff'),
+    url('./tharlon-regular.ttf') format('truetype');
+    font-style:normal;
+    font-style: normal;
+}
+
+.ksw {
+    font-family: RemoteTharLon,Padauk;
+    line-height: 2.0;
+    font-weight: 100;
+}
+
+#lang_sel {
+    font-family: RemoteTharLon,Padauk,verdana,arial,sans-serif;
+}
+

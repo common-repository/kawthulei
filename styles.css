@@ -1,0 +1,21 @@
+/* The url in the following @font-face rules needs to point to the respective Myanmar fonts on the server. */
+
+
+@font-face {
+	font-family: 'Karen Text';
+	src: url('karen-text.eot');
+	src: local('☺'), url('karen-text.woff') format('woff'), url('karen-text.ttf') format('truetype'), url('karen-text.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ksw {
+    font-family: "Karen Text",Padauk,Tharlon,verdana,arial,sans-serif;
+    font-size: 1.2em;
+    line-height: 2.0;
+}
+
+#lang_sel {
+    font-family: "Karen Text",Padauk,TharLon,verdana,arial,sans-serif;
+}
+
